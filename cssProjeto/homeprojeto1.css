@@ -1,0 +1,161 @@
+
+    body {
+        background-color: var(--cor-primaria);
+        font-size: 2rem;
+    }
+
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 50px;
+        display: flex;
+        height: 100px;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--cor-terciaria);
+    }
+    
+    .nav-cabecalho ul {
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .nav-cabecalho li {
+        display: block;
+        margin-left: 15px;
+        justify-content: flex-end;
+    }
+
+    .nav-cabecalho a {
+        text-decoration: none;
+        color: var(--cor-extra);
+    }
+
+    #logo {
+        height: 50px;
+    }
+
+    main {
+        color: var(--cor-terciaria);
+        margin-top: 120px;
+        width: 75%;
+    }
+
+    .principal p{
+        text-align: center;
+        font-style: italic;
+        font-weight: 300;
+        margin-left: 50px;
+    }
+
+    h1 {
+        text-align: center;
+        font-weight: bolder;
+        margin-left: 50px;
+    }
+    
+    .sobre, .outras-pages, .contato {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 25px;
+    }
+
+    .sobre {
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+    
+    .contato {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+
+    .card {
+        padding: 5px 10px 10px 10px;
+        width: 100%;
+        color: var(--cor-extra);
+        display: block;
+        background-color: var(--cor-secundaria);
+        text-align: center;
+        border: solid;
+        border-color: var(--cor-terciaria);
+        border-style: double;
+        border-radius: .5%;
+    }
+
+    .card-pages {
+        padding: 5px 10px 10px 10px;
+        width: 50%;
+        color: var(--cor-extra);
+        display: block;
+        background-color: var(--cor-secundaria);
+        text-align: center;
+        border: solid;
+        border-color: var(--cor-terciaria);
+        border-style: double;
+        border-radius: .5%;
+    }
+
+    .outras-pages a {
+        text-decoration: none;
+        color: var(--cor-extra);
+    }
+
+    .outras-pages a:hover {
+        color: var(--cor-terciaria);
+    }
+
+    .imagens-contato {
+        height: 80px;
+        width: 80px;
+        margin: 10px;
+    }
+
+    main, aside{
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    aside {
+        float: right;
+        height: 50%;
+        width: 20%;
+        margin-right: 25px;
+        margin-top: 243px;
+    }
+
+    .card-aside {
+        padding: 5px 10px 10px 10px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        height: 50px;
+        width: 100%;
+        color: var(--cor-extra);
+        display: block;
+        background-color: var(--cor-secundaria);
+        text-align: center;
+        border: solid;
+        border-color: var(--cor-terciaria);
+        border-style: double;
+        border-radius: .5%;
+    }
+
+   footer {
+        height: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--cor-terciaria);
+   }
+
+   footer p{
+        display: block;
+        margin: 5px;
+        color: var(--cor-extra);
+   }
